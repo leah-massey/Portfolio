@@ -13,3 +13,7 @@
     @apply cursor-pointer;
   }
 }
+
+.custom-img {
+  background-image: url("./img/painting.png");
+}
