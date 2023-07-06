@@ -30,7 +30,7 @@ const Skills = () => {
             />
             <p className="my-4">Javascript</p>
           </div>
-          <div className="shadow-md shadow-[#c1c0bc] hover:scale-110 duration-500">
+          <div className="shadow-md bg-gray-50 border-2 border-cyan-950 hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="React icon" />
             <p className="my-4">React</p>
           </div>

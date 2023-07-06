@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="flex items-center jsutify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img"
+      className="flex items-center justify-center h-screen  bg-fixed bg-center bg-cover custom-img"
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full space-y-4">
@@ -19,11 +19,8 @@ const Home = () => {
               I'm a Software Developer
             </h2>
             <p className=" pt-4 max-w-[700px]">
-              I like problem solving, blending creativity with logic and
-              thinking outside of the box.
-            </p>
-            <p className="max-w-[700px]">
-              I build things and then I build them again, but better.
+              I like creative problem solving, logical processes and learning
+              new things.
             </p>
           </div>
         </div>
