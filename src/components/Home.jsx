@@ -12,15 +12,16 @@ const Home = () => {
         <div className="bg-gray-50 py-3 px-3">
           <div className="py-8 px-8 border-2 border-cyan-950">
             <p className="pb-4">Hello, my name is</p>
-            <h1 className="text-4xl sm:text-7xl font-bold  text-cyan-950">
+            <h1 className="text-4xl sm:text-7xl font-bold  text-cyan-950 tracking-wider pb-4">
               Leah Massey
             </h1>
-            <h2 className="text-4xl sm:text-6xl font-bold  text-sky-800">
+            {/* text-sky-800 */}
+            {/* <h2 className="text-4xl sm:text-5xl italic  text-emerald-500 @apply font-baskervville ">
               I'm a Software Developer
-            </h2>
+            </h2> */}
             <p className=" pt-4 max-w-[700px]">
-              I like creative problem solving, logical processes and learning
-              new things.
+              I'm a creative problem solver who likes logical processes and
+              learning new things.
             </p>
           </div>
         </div>
