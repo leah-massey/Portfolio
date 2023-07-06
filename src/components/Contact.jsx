@@ -4,9 +4,13 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen custom-img flex items-center justify-center  bg-fixed bg-center bg-cover"
+      className="w-full h-screen flex items-center justify-center  bg-fixed bg-center bg-cover custom-img pt-20"
     >
-      <form action="" className="flex flex-col max-w-[600px] w-full">
+      <form
+        method="POST"
+        action="https://getform.io/f/295482b2-2034-484b-99cc-faae97e948ee"
+        className="flex flex-col max-w-[600px] w-full"
+      >
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-cyan-950 text-cyan-950">
             Contact
