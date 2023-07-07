@@ -3,6 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div name="contact" className="marble-background">
+      {/* container */}
       <div className="w-[1000px] mx-auto px-8 flex flex-col justify-center h-full space-y-4">
         <div className="bg-gray-50 py-3 px-3">
           <div className="border">
