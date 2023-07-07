@@ -8,6 +8,7 @@ const Home = () => {
       className="flex items-center justify-center h-screen  bg-fixed bg-center bg-cover custom-img"
     >
       {/* Container */}
+
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full space-y-4">
         <div className="bg-gray-50 py-3 px-3">
           <div className="py-8 px-8 border-2 border-cyan-950">

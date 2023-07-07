@@ -3,6 +3,9 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
+import Popup from "./Popup";
+
+import CV from "../assets/Leah-CV-single-page.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -89,7 +92,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-cyan-950">
             <a
               className="flex justify-between items-center w-full text-gray-50"
-              href="/"
+              href="https://www.linkedin.com/in/leah-massey-174b4327/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -97,28 +100,32 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-cyan-950">
             <a
               className="flex justify-between items-center w-full text-gray-50"
-              href="/"
+              href="https://github.com/leah-massey"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
+
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-cyan-950">
             <a
               className="flex justify-between items-center w-full text-gray-50"
               href="/"
             >
-              Email <HiOutlineMail size={30} />
+              Contact <HiOutlineMail size={30} />
             </a>
           </li>
+
+          {/* cv popup */}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-cyan-950">
-            <a
+            <button
               className="flex justify-between items-center w-full text-gray-50"
               href="/"
             >
               CV <BsFillPersonLinesFill size={30} />
-            </a>
+            </button>
           </li>
         </ul>
+        <Popup trigger={true}></Popup>
       </div>
     </div>
   );

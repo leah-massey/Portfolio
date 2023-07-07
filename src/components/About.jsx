@@ -50,8 +50,15 @@ const About = () => {
           </div>
           <div>
             <p>
-              More of a description abou things and some infor about you. This
-              is why I'd lieka job and no nonsense{" "}
+              Hello 👋🏻, I’m a Software Engineer who likes details, finding
+              patterns and embracing new concepts. I’m a graduate of Makers
+              Academy with an appetite for continual learning. I have over a
+              decade’s worth of experience conceptualising, building and
+              creative problem-solving within the worlds of bespoke
+              craftsmanship (tailoring & interior design) and production
+              management. I thrive in environments where I can use both logic
+              and creativity and am really excited that Software Engineering
+              provides me with an endless opportunity for both.
             </p>
           </div>
         </div>
