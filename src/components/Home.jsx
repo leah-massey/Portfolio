@@ -6,10 +6,7 @@ const Home = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div
-      name="home"
-      className="flex items-center justify-center h-screen  bg-fixed bg-center bg-cover custom-img"
-    >
+    <div name="home" className="marble-background">
       {/* Container */}
 
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full space-y-4">

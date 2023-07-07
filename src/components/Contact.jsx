@@ -2,10 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div
-      name="contact"
-      className="flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img pt-20"
-    >
+    <div name="contact" className="marble-background">
       <div className="w-[1000px] mx-auto px-8 flex flex-col justify-center h-full space-y-4">
         <div className="bg-gray-50 py-3 px-3">
           <div className="border">

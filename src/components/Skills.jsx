@@ -5,15 +5,14 @@ import Jest from "../assets/jest.png";
 import Node from "../assets/node.png";
 import Mongo from "../assets/mongo.png";
 import HTML from "../assets/html.png";
-
 import Github from "../assets/github-navy.png";
 import Tailwind from "../assets/tailwind.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full bg-gray-50 text-cyan-950 pt-20">
+    <div name="skills" className="marble-background">
       {/* container */}
-      <div className="max-w-[1000]px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="heading">Skills</p>
           <p className="py-4">
