@@ -6,9 +6,7 @@ const Work = () => {
     <div name="work" className="w-full md:h-screen text-cyan-950 bg-gray-50">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div classame="pb-4">
-          <p className="text-4xl font-bold inline border-b-4 text-cyan-950 border-cyan-950">
-            Work
-          </p>
+          <p className="heading">Work</p>
           <p className="py-6">
             These are some projects that I've been building recently:
           </p>

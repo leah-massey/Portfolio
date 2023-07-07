@@ -15,10 +15,11 @@ const Skills = () => {
       {/* container */}
       <div className="max-w-[1000]px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold border-b-4 border-cyan-950 ">
-            Skills
+          <p className="heading">Skills</p>
+          <p className="py-4">
+            These some of the technologies that I work with. I'm always
+            interested in learning new things though
           </p>
-          <p className="py-4">These are the technologies that I work with</p>
         </div>
 
         <div className="w-full grid grid-cols-4 sm:grid-cols-8 gap-4 text-center py-8">

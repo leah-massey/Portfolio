@@ -20,8 +20,17 @@
   }
 }
 
+@layer components {
+  .border {
+    @apply py-8 px-8 border-2 border-cyan-950;
+  }
+  .heading {
+    @apply text-4xl font-bold inline  border-b-4 border-cyan-950 text-cyan-950 tracking-wider;
+  }
+}
+
 .custom-img {
-  background-image: url("./img/blue.png");
+  background-image: url("./assets/blue-marble.jpg");
 }
 
 .content-div {
