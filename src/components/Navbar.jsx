@@ -5,11 +5,12 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import Popup from "./Popup";
 
-import CV from "../assets/Leah-CV-single-page.png";
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
+  const [cvPopup, setCvPopup] = useState(false);
+  const handleCvPopupClick = () => setCvPopup(false);
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-50 text-cyan-950">
@@ -118,6 +119,7 @@ const Navbar = () => {
           {/* cv popup */}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-cyan-950">
             <button
+              onClick={() => setCvPopup(true)}
               className="flex justify-between items-center w-full text-gray-50"
               href="/"
             >
@@ -125,7 +127,7 @@ const Navbar = () => {
             </button>
           </li>
         </ul>
-        <Popup trigger={true}></Popup>
+        <Popup trigger={cvPopup}></Popup>
       </div>
     </div>
   );
