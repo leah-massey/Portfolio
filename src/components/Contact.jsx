@@ -16,6 +16,7 @@ const Contact = () => {
             >
               <div className="pb-8">
                 <p className="heading">Contact</p>
+                <p>Please get in touch!</p>
               </div>
               <input
                 className="bg-gray-100 p-2"
