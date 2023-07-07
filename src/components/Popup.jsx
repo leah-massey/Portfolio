@@ -8,7 +8,7 @@ function Popup(props) {
     <div className="popup">
       <div className="popup-inner">
         <img src={CV} alt="CV" />
-        <button className="close-btn">
+        <button className="close-btn" onClick={() => props.setTrigger(false)}>
           <FaTimes />
         </button>
         {props.children}

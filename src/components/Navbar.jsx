@@ -127,7 +127,7 @@ const Navbar = () => {
             </button>
           </li>
         </ul>
-        <Popup trigger={cvPopup}></Popup>
+        <Popup trigger={cvPopup} setTrigger={setCvPopup}></Popup>
       </div>
     </div>
   );
