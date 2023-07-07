@@ -10,7 +10,6 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   const [cvPopup, setCvPopup] = useState(false);
-  const handleCvPopupClick = () => setCvPopup(false);
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-50 text-cyan-950">
@@ -108,12 +107,15 @@ const Navbar = () => {
           </li>
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-cyan-950">
-            <a
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
               className="flex justify-between items-center w-full text-gray-50"
-              href="/"
             >
-              Contact <HiOutlineMail size={30} />
-            </a>
+              Contact
+              <HiOutlineMail size={30} />
+            </Link>
           </li>
 
           {/* cv popup */}
