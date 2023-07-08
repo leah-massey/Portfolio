@@ -1,5 +1,6 @@
 import React from "react";
 import TennisGame from "../assets/projects/guess-their-ranking.png";
+import TennisGameII from "../assets/projects/tennis-ranking-game-II.png";
 
 const Work = () => {
   return (
@@ -14,74 +15,77 @@ const Work = () => {
 
         {/* grid container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <div
-            style={{ backgroundImage: `url(${TennisGame})` }}
-            className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* hover effect */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-cyan-950 tracking-wider">
-                React JS application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://github.com/leah-massey/Tennis-Ranking-Game">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-                <a href="https://main--animated-pixie-528dc3.netlify.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
+          <div>
+            <div
+              style={{ backgroundImage: `url(${TennisGame})` }}
+              className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
+            >
+              {/* hover effect */}
+
+              <div className="opacity-0 group-hover:opacity-100">
+                <div className="pt-8 text-center">
+                  <a href="https://github.com/leah-massey/Tennis-Ranking-Game">
+                    <button className="work-button">Code</button>
+                  </a>
+                  <a href="https://main--animated-pixie-528dc3.netlify.app/">
+                    <button className="work-button">Play</button>
+                  </a>
+                </div>
               </div>
             </div>
+            <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game</h1>
+            <p className="pt-3">
+              A game, where players must guess the ranking of the top 20 female
+              tennis players.
+            </p>
           </div>
-          <div
-            style={{ backgroundImage: `url(${TennisGame})` }}
-            className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* hover effect */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-cyan-950 tracking-wider">
-                React JS application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
+          <div>
+            <div
+              style={{ backgroundImage: `url(${TennisGameII})` }}
+              className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
+            >
+              {/* hover effect */}
+
+              <div className="opacity-0 group-hover:opacity-100">
+                <div className="pt-8 text-center">
+                  <a href="https://github.com/leah-massey/Tennis-Ranking-Game">
+                    <button className="work-button">Code</button>
+                  </a>
+                  <a href="https://main--animated-pixie-528dc3.netlify.app/">
+                    <button className="work-button">Play</button>
+                  </a>
+                </div>
               </div>
             </div>
+            <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game II</h1>
+            <p className="pt-3">
+              A re-build of Tennis Ranking Game, using OOP and TTD. (work in
+              progress, but do take a look at my code!)
+            </p>
           </div>
-          <div
-            style={{ backgroundImage: `url(${TennisGame})` }}
-            className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* hover effect */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-cyan-950 tracking-wider">
-                React JS application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
+          <div>
+            <div
+              style={{ backgroundImage: `url(${TennisGame})` }}
+              className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
+            >
+              {/* hover effect */}
+
+              <div className="opacity-0 group-hover:opacity-100">
+                <div className="pt-8 text-center">
+                  <a href="https://github.com/leah-massey/Tennis-Ranking-Game">
+                    <button className="work-button">Code</button>
+                  </a>
+                  <a href="https://main--animated-pixie-528dc3.netlify.app/">
+                    <button className="work-button">Play</button>
+                  </a>
+                </div>
               </div>
             </div>
+            <h1 className="pt-6 text-lg font-bold">Creative Project Planner</h1>
+            <p className="pt-3">
+              A platform where a user can list, catergorize and order their
+              craetive projects.
+            </p>
           </div>
         </div>
       </div>

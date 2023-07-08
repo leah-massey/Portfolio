@@ -17,9 +17,12 @@ const Skills = () => {
           <div className="border">
             <div>
               <p className="heading">Skills</p>
-              <p className="py-4">
-                These some of the technologies that I work with. I'm always
-                interested in learning new things though
+              <p className="pt-6">
+                These some of the technologies that I work with.
+              </p>
+              <p>
+                I'm always interested in learning and taking on new challenges -
+                C# is next on the list!
               </p>
             </div>
 
