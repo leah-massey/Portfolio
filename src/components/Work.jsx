@@ -1,6 +1,7 @@
 import React from "react";
 import TennisGame from "../assets/projects/guess-their-ranking.png";
 import TennisGameII from "../assets/projects/tennis-ranking-game-II.png";
+import CreativeProjectPlanner from "../assets/projects/creative-project-planner.png";
 
 const Work = () => {
   return (
@@ -28,7 +29,7 @@ const Work = () => {
                     <button className="work-button">Code</button>
                   </a>
                   <a href="https://main--animated-pixie-528dc3.netlify.app/">
-                    <button className="work-button">Play</button>
+                    <button className="work-button">Demo</button>
                   </a>
                 </div>
               </div>
@@ -51,21 +52,18 @@ const Work = () => {
                   <a href="https://github.com/leah-massey/Tennis-Ranking-Game">
                     <button className="work-button">Code</button>
                   </a>
-                  <a href="https://main--animated-pixie-528dc3.netlify.app/">
-                    <button className="work-button">Play</button>
-                  </a>
                 </div>
               </div>
             </div>
             <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game II</h1>
             <p className="pt-3">
               A re-build of Tennis Ranking Game, using OOP and TTD. (work in
-              progress, but do take a look at my code!)
+              progress! 🛠️)
             </p>
           </div>
           <div>
             <div
-              style={{ backgroundImage: `url(${TennisGame})` }}
+              style={{ backgroundImage: `url(${CreativeProjectPlanner})` }}
               className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               {/* hover effect */}
@@ -76,15 +74,15 @@ const Work = () => {
                     <button className="work-button">Code</button>
                   </a>
                   <a href="https://main--animated-pixie-528dc3.netlify.app/">
-                    <button className="work-button">Play</button>
+                    <button className="work-button">Demo</button>
                   </a>
                 </div>
               </div>
             </div>
             <h1 className="pt-6 text-lg font-bold">Creative Project Planner</h1>
             <p className="pt-3">
-              A platform where a user can list, catergorize and order their
-              craetive projects.
+              A platform where a user can list, catergorize and filter their
+              creative projects.
             </p>
           </div>
         </div>

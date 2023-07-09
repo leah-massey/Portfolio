@@ -15,8 +15,8 @@ const Contact = () => {
               <div className="pb-8">
                 <p className="heading">Contact</p>
                 <p className="pt-6">
-                  I'd love to hear from you regarding collaborations,
-                  opportunities - please drop me a note and I will be in touch.
+                  Collaborations, opportunities, thoughts and ideas - I'd love
+                  to connect!
                 </p>
               </div>
               <input
