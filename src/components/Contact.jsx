@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div name="contact" className="marble-background">
       {/* container */}
-      <div className="w-[1000px] mx-auto px-8 flex flex-col justify-center h-full space-y-4">
+      <div className="w-[1000px] mx-auto px-8 flex flex-col justify-center space-y-4 pt-20 h-4/5 ">
         <div className="bg-gray-50 py-3 px-3">
           <div className="border">
             <form
@@ -34,7 +34,7 @@ const Contact = () => {
               <textarea
                 className="bg-gray-100 p-2"
                 name="message"
-                rows="10"
+                rows="5"
                 placeholder="Message"
               ></textarea>
               <button className="text-gray-50 border-2 border-cyan-950 bg-cyan-950 hover:bg-gray-50 hover:text-cyan-950   px-4 py-3 my-8 mx-auto flex items-center">
