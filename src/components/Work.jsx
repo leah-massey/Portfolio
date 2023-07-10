@@ -60,8 +60,8 @@ const Work = () => {
             </div>
             <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game</h1>
             <p className="pt-3">
-              A game, built in Javascript where players must guess the ranking
-              of the top 20 female tennis players.
+              A game, built using Javascript where players must guess the
+              ranking of the top 20 female tennis players.
             </p>
           </div>
           <div>
