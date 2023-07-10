@@ -18,6 +18,30 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div>
             <div
+              style={{ backgroundImage: `url(${CreativeProjectPlanner})` }}
+              className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
+            >
+              {/* hover effect */}
+
+              <div className="opacity-0 group-hover:opacity-100">
+                <div className="pt-8 text-center">
+                  <a href="https://github.com/leah-massey/Creative-Project-Planner">
+                    <button className="work-button">Code</button>
+                  </a>
+                  <a href="https://silly-taiyaki-b5605c.netlify.app/">
+                    <button className="work-button">Demo</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <h1 className="pt-6 text-lg font-bold">Creative Project Planner</h1>
+            <p className="pt-3">
+              A platform built in React where a user can list, catergorize and
+              filter their creative projects.
+            </p>
+          </div>
+          <div>
+            <div
               style={{ backgroundImage: `url(${TennisGame})` }}
               className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
             >
@@ -36,8 +60,8 @@ const Work = () => {
             </div>
             <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game</h1>
             <p className="pt-3">
-              A game, where players must guess the ranking of the top 20 female
-              tennis players.
+              A game, built in Javascript where players must guess the ranking
+              of the top 20 female tennis players.
             </p>
           </div>
           <div>
@@ -57,32 +81,8 @@ const Work = () => {
             </div>
             <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game II</h1>
             <p className="pt-3">
-              A re-build of Tennis Ranking Game, using OOP and TTD. (work in
-              progress! 🛠️)
-            </p>
-          </div>
-          <div>
-            <div
-              style={{ backgroundImage: `url(${CreativeProjectPlanner})` }}
-              className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
-            >
-              {/* hover effect */}
-
-              <div className="opacity-0 group-hover:opacity-100">
-                <div className="pt-8 text-center">
-                  <a href="https://github.com/leah-massey/Tennis-Ranking-Game">
-                    <button className="work-button">Code</button>
-                  </a>
-                  <a href="https://main--animated-pixie-528dc3.netlify.app/">
-                    <button className="work-button">Demo</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <h1 className="pt-6 text-lg font-bold">Creative Project Planner</h1>
-            <p className="pt-3">
-              A platform where a user can list, catergorize and filter their
-              creative projects.
+              A re-build of Tennis Ranking Game, built in React using OOP and
+              TTD. (work in progress! 🛠️)
             </p>
           </div>
         </div>
