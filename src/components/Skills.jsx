@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <div name="skills" className="marble-background h-full">
       {/* container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full space-y-4">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center space-y-4 h-4/5 pt-20 pb-20 ">
         <div className="bg-gray-50 py-3 px-3">
           <div className="border">
             <div>
