@@ -6,7 +6,7 @@ const Home = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div name="home" className="marble-background">
+    <div name="home" className="marble-background ">
       {/* Container */}
 
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full space-y-4">
@@ -16,10 +16,6 @@ const Home = () => {
             <h1 className="text-4xl sm:text-7xl font-bold  text-cyan-950 tracking-wider pb-4">
               Leah Massey
             </h1>
-            {/* text-sky-800 */}
-            {/* <h2 className="text-4xl sm:text-5xl italic  text-emerald-500 @apply font-baskervville ">
-              I'm a Software Developer
-            </h2> */}
             <p className=" pt-4 max-w-[700px]">
               I'm a creative problem solver who likes logical processes and
               learning new things.

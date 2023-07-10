@@ -28,7 +28,7 @@
     @apply text-4xl font-bold inline  border-b-4 border-cyan-950 text-cyan-950 tracking-wider;
   }
   .marble-background {
-    @apply flex items-center justify-center h-screen  bg-fixed bg-center bg-cover custom-img;
+    @apply flex items-center justify-center  h-screen  bg-fixed bg-center bg-cover custom-img;
   }
 
   .work-button {

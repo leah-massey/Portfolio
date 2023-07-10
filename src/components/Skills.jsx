@@ -10,9 +10,9 @@ import Tailwind from "../assets/tailwind.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="marble-background">
+    <div name="skills" className="marble-background h-full">
       {/* container */}
-      <div className="w-[1000px] mx-auto px-8 flex flex-col justify-center h-full space-y-4">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full space-y-4">
         <div className="bg-gray-50 py-3 px-3">
           <div className="border">
             <div>
