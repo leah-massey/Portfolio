@@ -25,10 +25,18 @@ const Work = () => {
 
               <div className="opacity-0 group-hover:opacity-100">
                 <div className="pt-8 text-center">
-                  <a href="https://github.com/leah-massey/Creative-Project-Planner">
+                  <a
+                    href="https://github.com/leah-massey/Creative-Project-Planner"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="work-button">Code</button>
                   </a>
-                  <a href="https://silly-taiyaki-b5605c.netlify.app/">
+                  <a
+                    href="https://silly-taiyaki-b5605c.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="work-button">Demo</button>
                   </a>
                 </div>
@@ -49,10 +57,18 @@ const Work = () => {
 
               <div className="opacity-0 group-hover:opacity-100">
                 <div className="pt-8 text-center">
-                  <a href="https://github.com/leah-massey/Tennis-Ranking-Game">
+                  <a
+                    href="https://github.com/leah-massey/Tennis-Ranking-Game"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="work-button">Code</button>
                   </a>
-                  <a href="https://main--animated-pixie-528dc3.netlify.app/">
+                  <a
+                    href="https://main--animated-pixie-528dc3.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="work-button">Demo</button>
                   </a>
                 </div>
@@ -73,7 +89,11 @@ const Work = () => {
 
               <div className="opacity-0 group-hover:opacity-100">
                 <div className="pt-8 text-center">
-                  <a href="https://github.com/leah-massey/Tennis-Ranking-Game">
+                  <a
+                    href="https://github.com/leah-massey/Tennis-Ranking-Game"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="work-button">Code</button>
                   </a>
                 </div>

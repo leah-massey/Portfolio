@@ -79,6 +79,25 @@ const Navbar = () => {
             Work
           </Link>
         </li>
+
+        <li className="py-6 text-4xl">
+          <a
+            href="https://www.linkedin.com/in/leah-massey-174b4327/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Linkedin
+          </a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a
+            href="https://github.com/leah-massey"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+        </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
