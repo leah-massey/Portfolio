@@ -9,9 +9,9 @@ function Popup(props) {
     <div className="popup">
       <div className="popup-inner">
         <TransformWrapper
-          defaultScale={1}
-          defaultPositionX={100}
-          defaultPositionY={200}
+          defaultScale={0}
+          defaultPositionX={0}
+          defaultPositionY={0}
         >
           {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
             <>
@@ -31,7 +31,7 @@ function Popup(props) {
               </div>
 
               <TransformComponent>
-                <img src={CV} alt="CV" />
+                <img src={CV} alt="CV" className="cv-image" />
               </TransformComponent>
             </>
           )}
