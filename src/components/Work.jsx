@@ -5,10 +5,13 @@ import CreativeProjectPlanner from "../assets/projects/creative-project-planner.
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-cyan-950 bg-gray-50">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div
+      name="work"
+      className="w-full md:h-screen text-cyan-950 bg-gray-50 py-20 "
+    >
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
         <div classame="pb-4">
-          <p className="heading">Work</p>
+          <p className="heading ">Work</p>
           <p className="py-6">
             These are some projects that I've been building recently:
           </p>
