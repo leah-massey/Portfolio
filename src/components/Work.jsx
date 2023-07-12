@@ -36,7 +36,7 @@ const Work = () => {
                     <button className="work-button">Code</button>
                   </a>
                   <a
-                    href="https://silly-taiyaki-b5605c.netlify.app/"
+                    href="https://creative-project-planner.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
