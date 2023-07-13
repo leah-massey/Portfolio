@@ -47,8 +47,8 @@ const Work = () => {
             </div>
             <h1 className="pt-6 text-lg font-bold">Creative Project Planner</h1>
             <p className="pt-3">
-              A platform built in React where a user can list, catergorize and
-              filter their creative projects.
+              A platform built in React where a I can list, catergorize and
+              filter my creative projects.
             </p>
           </div>
           <div>
