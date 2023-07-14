@@ -2,13 +2,14 @@ import React from "react";
 import "./Popup.css";
 import CV from "../assets/Leah-CV-single-page.png";
 import { FaTimes, FaPlus, FaMinus } from "react-icons/fa";
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+// import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 function Popup(props) {
   return props.trigger ? (
     <div className="popup">
       <div className="popup-inner">
-        <TransformWrapper
+        <img src={CV} alt="CV" />
+        {/* <TransformWrapper
           defaultScale={0}
           defaultPositionX={0}
           defaultPositionY={0}
@@ -35,7 +36,7 @@ function Popup(props) {
               </TransformComponent>
             </>
           )}
-        </TransformWrapper>
+        </TransformWrapper> */}
         <button className="close-btn" onClick={() => props.setTrigger(false)}>
           <FaTimes />
         </button>
