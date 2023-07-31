@@ -93,7 +93,7 @@ const Work = () => {
               <div className="opacity-0 group-hover:opacity-100">
                 <div className="pt-8 text-center">
                   <a
-                    href="https://github.com/leah-massey/Tennis-Ranking-Game"
+                    href="https://github.com/leah-massey/Tennis-Ranking-Game-II"
                     target="_blank"
                     rel="noreferrer"
                   >
