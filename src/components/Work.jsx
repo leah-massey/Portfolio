@@ -104,9 +104,10 @@ const Work = () => {
             </div>
             <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game II</h1>
             <p className="pt-3">
-              A re-build of Tennis Ranking Game: same but better 💪🏻✨. Built in
-              React using TDD and styled using Tailwind, this is a work in
-              progress(!) building session persistence, login features etc. 🛠️
+              A re-build of Tennis Ranking Game: same, but better with more
+              functionality 💪🏻✨. Built in React using TDD and styled using
+              Tailwind, this is a work in progress(!) building session
+              persistence, login features etc. 🛠️
             </p>
           </div>
         </div>
