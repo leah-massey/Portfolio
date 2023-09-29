@@ -1,6 +1,6 @@
 import React from "react";
 import TennisGame from "../assets/projects/guess-their-ranking.png";
-import TennisGameII from "../assets/projects/tennis-ranking-game-II.png";
+import TennisGameII from "../assets/projects/the-tennis-ranking-game.png";
 import CreativeProjectPlanner from "../assets/projects/creative-project-planner.png";
 
 const Work = () => {
@@ -104,8 +104,9 @@ const Work = () => {
             </div>
             <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game II</h1>
             <p className="pt-3">
-              A re-build of Tennis Ranking Game, built in React using OOP and
-              TTD. (work in progress! 🛠️)
+              A re-build of Tennis Ranking Game: same but better. Built in React
+              using TDD this is a work in progress(!) building session
+              persistence, login features etc. 🛠️
             </p>
           </div>
         </div>
