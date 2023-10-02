@@ -47,9 +47,9 @@ const Work = () => {
             </div>
             <h1 className="pt-6 text-lg font-bold">Creative Project Planner</h1>
             <p className="pt-3">
-              A platform built in React where a I can list, categorize and
-              filter my creative projects. Tailwind styling and session
-              persistence used to maintain a user's list.
+              A platform built in React where I can list, categorize and filter
+              my creative projects. Tailwind styling and session persistence
+              used to maintain a user's list.
             </p>
           </div>
           <div>
@@ -105,10 +105,10 @@ const Work = () => {
             </div>
             <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game II</h1>
             <p className="pt-3">
-              A re-build of Tennis Ranking Game: same, same, but better with
-              more functionality 💪🏻✨. Built in React using TDD and styled using
-              Tailwind, this is a work in progress(!) building session
-              persistence, login features etc. 🛠️
+              A re-build of Tennis Ranking Game: same, same, but better - with
+              more functionality 💪🏻✨. Built in React using TDD and OOP and
+              styled using Tailwind. This is a work in progress(!) where I'm
+              integrating session persistence, login features etc. 🛠️
             </p>
           </div>
         </div>
