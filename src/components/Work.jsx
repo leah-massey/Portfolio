@@ -47,8 +47,9 @@ const Work = () => {
             </div>
             <h1 className="pt-6 text-lg font-bold">Creative Project Planner</h1>
             <p className="pt-3">
-              A platform built in React where a I can list, catergorize and
-              filter my creative projects.
+              A platform built in React where a I can list, categorize and
+              filter my creative projects. Tailwind styling and session
+              persistence used to maintain a user's list.
             </p>
           </div>
           <div>
@@ -79,8 +80,8 @@ const Work = () => {
             </div>
             <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game</h1>
             <p className="pt-3">
-              A game, built using Javascript where players must guess the
-              ranking of the top 20 female tennis players.
+              A game built using Javascript where players must guess the ranking
+              of the top 20 female tennis players.
             </p>
           </div>
           <div>
@@ -104,8 +105,8 @@ const Work = () => {
             </div>
             <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game II</h1>
             <p className="pt-3">
-              A re-build of Tennis Ranking Game: same, but better with more
-              functionality 💪🏻✨. Built in React using TDD and styled using
+              A re-build of Tennis Ranking Game: same, same, but better with
+              more functionality 💪🏻✨. Built in React using TDD and styled using
               Tailwind, this is a work in progress(!) building session
               persistence, login features etc. 🛠️
             </p>
