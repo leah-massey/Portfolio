@@ -21,6 +21,41 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div>
             <div
+              style={{ backgroundImage: `url(${TennisGameII})` }}
+              className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
+            >
+              {/* hover effect */}
+
+              <div className="opacity-0 group-hover:opacity-100">
+                <div className="pt-8 text-center">
+                  <a
+                    href="https://github.com/leah-massey/Tennis-Ranking-Game-II"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="work-button">Code</button>
+                  </a>
+                  <a
+                    href="https://the-tennis-ranking-game.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="work-button">Demo</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game II</h1>
+            <p className="pt-3">
+              A re-build of Tennis Ranking Game: same, same, but better - with
+              more functionality including session persistence and pop-ups 💪🏻✨.
+              Built in React using TDD and OOP and styled using Tailwind. This
+              is a work in progress(!) where I'm currently adding login features
+              among other things. 🛠️
+            </p>
+          </div>
+          <div>
+            <div
               style={{ backgroundImage: `url(${CreativeProjectPlanner})` }}
               className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
             >
@@ -82,34 +117,6 @@ const Work = () => {
             <p className="pt-3">
               A game built using Javascript where players must guess the ranking
               of the top 20 female tennis players.
-            </p>
-          </div>
-          <div>
-            <div
-              style={{ backgroundImage: `url(${TennisGameII})` }}
-              className="shadow-lg shadow-gray-100 group container rounded-md flex justify-center items-center mx-auto content-div"
-            >
-              {/* hover effect */}
-
-              <div className="opacity-0 group-hover:opacity-100">
-                <div className="pt-8 text-center">
-                  <a
-                    href="https://github.com/leah-massey/Tennis-Ranking-Game-II"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <button className="work-button">Code</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game II</h1>
-            <p className="pt-3">
-              A re-build of Tennis Ranking Game: same, same, but better - with
-              more functionality such as session persistence 💪🏻✨. Built in
-              React using TDD and OOP and styled using Tailwind. This is a work
-              in progress(!) where I'm currently adding login features among
-              other things. 🛠️
             </p>
           </div>
         </div>
