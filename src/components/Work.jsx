@@ -1,6 +1,6 @@
 import React from "react";
 import TennisGame from "../assets/projects/guess-their-ranking.png";
-import TennisGameII from "../assets/projects/the-tennis-ranking-game.png";
+import TennisGameII from "../assets/projects/tennis.png";
 import CreativeProjectPlanner from "../assets/projects/creative-project-planner.png";
 
 const Work = () => {
@@ -106,9 +106,10 @@ const Work = () => {
             <h1 className="pt-6 text-lg font-bold">Tennis Ranking Game II</h1>
             <p className="pt-3">
               A re-build of Tennis Ranking Game: same, same, but better - with
-              more functionality 💪🏻✨. Built in React using TDD and OOP and
-              styled using Tailwind. This is a work in progress(!) where I'm
-              integrating session persistence, login features etc. 🛠️
+              more functionality such as session persistence 💪🏻✨. Built in
+              React using TDD and OOP and styled using Tailwind. This is a work
+              in progress(!) where I'm currently adding login features among
+              other things. 🛠️
             </p>
           </div>
         </div>
