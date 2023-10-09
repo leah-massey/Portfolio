@@ -1,6 +1,4 @@
-<h3 align ="center">
-Portfolio
-</h3>
+<br>
 
 <p align="center">
 <img src="./src/assets/page-screenshot.png" alt="Screenshot of portfolio" title="Portfolio">
@@ -10,7 +8,7 @@ Portfolio
 <br /><br />
 This portfolio was built as a way to showcase and promote my software engineering projects.<br />
 <br />
-It was built using React and styled with Tailwind.<br />
+It was built from scratch using React and styled with Tailwind.<br />
 <br />
 
 # Getting Started with Create React App
