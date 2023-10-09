@@ -1,3 +1,18 @@
+<h3 align ="center">
+Portfolio
+</h3>
+
+<p align="center">
+<img src="./src/assets/page-screenshot.png" alt="Screenshot of portfolio" title="Portfolio">
+</p>
+
+[View Portfolio Here](https://leah-massey.netlify.app/)
+<br /><br />
+This portfolio was built as a way to showcase and promote my software engineering projects.<br />
+<br />
+It was built using React and styled with Tailwind.<br />
+<br />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
