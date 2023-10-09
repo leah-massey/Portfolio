@@ -4,11 +4,10 @@
 <img src="./src/assets/page-screenshot.png" alt="Screenshot of portfolio" title="Portfolio">
 </p>
 
-[View Portfolio Here](https://leah-massey.netlify.app/)
 <br /><br />
-This portfolio was built as a way to showcase and promote my software engineering projects.<br />
+This portfolio was built as a way to showcase and promote my software engineering projects. The deployed version can be viewed [here](https://leah-massey.netlify.app/)<br />
 <br />
-It was built from scratch using React and styled with Tailwind.<br />
+The portfolio was built from scratch using React and styled with Tailwind.<br />
 <br />
 
 # Getting Started with Create React App
