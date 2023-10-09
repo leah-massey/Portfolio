@@ -3,9 +3,12 @@
 <p align="center">
 <img src="./src/assets/page-screenshot.png" alt="Screenshot of portfolio" title="Portfolio">
 </p>
+[Play the game here](https://the-tennis-ranking-game.netlify.app/) 
+<br />
+This portfolio was built to showcase and promote my software engineering projects. The deployed version can be viewed 
+[here](https://leah-massey.netlify.app/)
 
 <br />
-This portfolio was built to showcase and promote my software engineering projects. The deployed version can be viewed [here](https://leah-massey.netlify.app/).<br />
 <br />
 The portfolio was built from scratch using React and styled with Tailwind.<br />
 <br />
